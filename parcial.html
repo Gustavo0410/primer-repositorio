@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="parcial.js"></script>
+    <title>Parcial</title>
+</head>
+<form>
+    <br>
+    <label>Seleciona el tipo de hora</label>
+    <select name="Hora" id="ponp">
+        <option value="Hora pico">Hora pico</option>
+        <option value="Hora no pico">Hora no pico</option>
+    </select>
+    <br>
+    <br>
+    <label>Selecciona el tipo de sala</label>
+    <select name="tSala" id="tSala">
+        <option value="2D">2D</option>
+        <option value="3D">3D</option>
+        <option value="Dinamix">Dinamix</option>
+    </select>
+    <br>
+    <br>
+    <label>Escribe el numero de boletas que compraras</label>
+    <input type="number" id="nBoletas">
+    <br>
+    <br>
+    <label>Selecciona tu tipo de pago</label>
+    <select name="tPago" id="tPago">
+        <option value="Efectivo">Efectivo</option>
+        <option value="Tarjeta de cinema">Tarjeta de cinema</option>
+    </select>
+    <br><br>
+    <label>Tipo de compra</label>
+    <select name="reserva" id="reserva">
+        <option value="reserva">reserva</option>
+        <option value="no reserva">no reserva</option>
+    </select>
+    <br>
+    <br>
+    <input type="button" value="Click" onclick="boletas();">
+    <br>
+    <br>
+    <p id="resultado"></p>
+
+
+</form>
+<body>
+    
+</body>
+</html>
